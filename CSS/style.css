@@ -34,6 +34,10 @@ header {
 
 
 /* bANNER */
+.banner {
+    background-image: url('https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg');
+    height: 100%;
+}
 
 .banner .banner__content,
 .txt,
