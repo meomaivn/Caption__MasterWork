@@ -66,3 +66,54 @@ header {
     width: 100%;
     height: auto;
 }
+
+/* Choose */
+.choose__content .col-4.content {
+    text-align: center;
+    border: #DC4F72 2px solid;
+}
+
+/* Backtotop */
+.backToTop {
+    line-height: 45px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Footer */
+.footer1 .item {
+    position: relative;
+}
+
+.footer1 .footer1__item {
+    display: flex;
+    text-align: center;
+
+}
+
+/* 404 */
+.error {
+    position: relative;
+}
+
+
+
+.error .error-page {
+    align-items: center;
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #DC4F72;
+}
+
+.error .btn-search {
+    background-color: #DC4F72;
+    color: #fff;
+
+}
