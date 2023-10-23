@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
-    background-color: blue;
+
 }
 
 html {
@@ -30,30 +30,51 @@ header {
     /* background: #fff; */
 }
 
+header .navbar-nav .nav-item a {
+    color: black;
+    transition: all 0.5s;
+}
 
+header .navbar-nav .nav-item a:hover {
+    color: #DC4F72;
+}
 
+header .nav-link.active {
+    color: #DC4F72 !important;
+}
 
-
+header .top-quote {
+    border: 2px #DC4F72;
+    border-radius: 2px;
+}
 
 /* bANNER */
 .banner {
-    background-image: url('https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg');
+    background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.92)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+    position: relative;
     height: 100%;
 }
 
 .banner .banner__content,
 .txt,
 .h3 {
-    font: size 3.1rem !important;
+    font-size: 30px !important;
+    font-weight: 500;
 
 }
 
 .btn__started {
 
     padding: 20px 20px;
-    border: 2px solid rebeccapurple;
+    border: 2px solid #DC4F72;
     color: #DC4F72;
     padding: 15px 20px;
+    transition: all 0.5s;
+}
+
+.btn__started:hover {
+    color: white;
+    background-color: #DC4F72;
 }
 
 .banner a {
@@ -77,10 +98,22 @@ header {
 
 /* Backtotop */
 .backToTop {
-    line-height: 45px;
-    color: #fff;
-    font-size: 22px;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    /* z-index: 99; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+    background-color: #DC4F72;
+    padding: 0;
+    opacity: 0.7;
+    transition: 0.3s ease;
 }
+
 
 .cd-top--is-visible {
     visibility: visible;
@@ -88,15 +121,17 @@ header {
 }
 
 /* Footer */
-/* .footer1 .item {
-    position: relative;
+/* footer__bottom */
+.footer__bottom .footer1__item ul li a {
+    text-decoration: none;
+    color: gray;
+
 }
 
-.footer1 .footer1__item {
-    display: flex;
-    text-align: center;
 
-} */
+.footer__bottom .footer1__item ul {
+    list-style: none;
+}
 
 /* footer copyright */
 .footer__copyright .copyright {
@@ -107,7 +142,7 @@ header {
 .copyright {
     background-color: #F7F9FC;
     color: black;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 
 /* 404 */
@@ -124,6 +159,10 @@ header {
     text-align: center;
     justify-content: center;
     color: #DC4F72;
+}
+
+.error span {
+    font-size: 16px;
 }
 
 .error .btn-search {
