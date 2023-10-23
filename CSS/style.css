@@ -1,0 +1,64 @@
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    background-color: blue;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.1;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+/* HEADER */
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+}
+
+
+
+
+
+
+/* bANNER */
+
+.banner .banner__content,
+.txt,
+.h3 {
+    font: size 3.1rem !important;
+
+}
+
+.btn__started {
+
+    padding: 20px 20px;
+    border: 2px solid rebeccapurple;
+    color: #DC4F72;
+    padding: 15px 20px;
+}
+
+.banner a {
+
+    color: red;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.banner .img-fluid {
+    width: 100%;
+    height: auto;
+}
