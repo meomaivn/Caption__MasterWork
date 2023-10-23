@@ -18,14 +18,16 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     color: black;
+
 }
 
 /* HEADER */
 header {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     z-index: 1;
-
+    padding: 15px 0;
+    /* background: #fff; */
 }
 
 
@@ -86,7 +88,7 @@ header {
 }
 
 /* Footer */
-.footer1 .item {
+/* .footer1 .item {
     position: relative;
 }
 
@@ -94,6 +96,18 @@ header {
     display: flex;
     text-align: center;
 
+} */
+
+/* footer copyright */
+.footer__copyright .copyright {
+    display: flex;
+
+}
+
+.copyright {
+    background-color: #F7F9FC;
+    color: black;
+    padding: 20px 0;
 }
 
 /* 404 */
