@@ -135,6 +135,16 @@ header .search-right .btn {
     transition: all 0.5s;
 }
 
+header .navbar .navbar-brand,
+.text {
+    color: #db5678 !important;
+    font-size: 30px !important;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 /* bANNER */
 .banner {
     background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.92)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
