@@ -23,65 +23,80 @@
 
 <body>
     <header class=" fixed-top d-flex">
-        <div class="container ">
-            <nav class="justify-content-between just  navbar navbar-expand-sm navbar-expand-lg ">
-                <!-- Brand -->
+        <div class="container">
+
+
+
+
+            <nav class="justify-content-between navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#"><i class="fa-solid fa-handshake mr-3 brand" style="color: #db5678"></i>
-                    <span style="color: #db5678; font-size: 26px">Masterwork</span></a>
+                    <span style="color: #db5678; font-size: 26px">Masterwork</span></a> <span
+                    class="sr-only">(current)</span></a></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <!-- Links -->
-                <ul class="navbar-nav" id="navbarMaster">
-                    <li class="nav-item"></li>
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                            aria-expanded="false">
-                            Pages
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Blogs</a>
-                            <a class="dropdown-item" href="#">Landing Page</a>
-                            <a class="dropdown-item" href="404.html">404 page</a>
-                        </div>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent navbarMaster">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link ml-3 active" href="#">Home
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Blogs</a>
+                                <a class="dropdown-item" href="#">Landing Page</a>
+                                <a class="dropdown-item" href="404.html">404 page</a>
+                            </div>
+                        </li>
 
-                    <li class="nav-item pr-5">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <!--  -->
-                <div class="search__btn py-2">
-                    <!-- search right -->
-                    <div class="search-right HeaderSearch mr-lg-3 d-flex flex-row">
-                        <a href="#search" class="search-search" title="search"><span class="fa fa-search"
-                                aria-hidden="true"></span></a>
-                        <div class="header__demo"></div>
-                        <!-- Button -->
-                        <div class="top-quote mr-lg-3 mt-lg-0 py-2">
-                            <a class="btn  btn-hover theme-button" href="#demourl">
-                                Schedule a Demo</a>
-                        </div>
-                        <!-- Dark and sun -->
-                        <div class="DarkandLight py-2">
-                            <nav class="navigation">
-                                <div class="theme-switch-wrapper">
-                                    <div class="mode-container">
-                                        <i class="fa-solid fa-sun"></i>
-                                        <i class="fa-regular fa-moon"></i>
-                                    </div>
+                        <li class="nav-item pr-5">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="search__btn py-2">
+                            <!-- search right -->
+                            <div class="search-right HeaderSearch mr-lg-3 d-flex flex-row">
+                                <a href="#search" class="search-search" title="search"><span class="fa fa-search"
+                                        aria-hidden="true"></span></a>
+                                <div class="header__demo"></div>
+                                <!-- Button -->
+                                <div class="top-quote mr-lg-3 mt-lg-0 py-2">
+                                    <a class="btn  btn-hover theme-button" href="#demourl">
+                                        Schedule a Demo</a>
                                 </div>
-                            </nav>
-                        </div>
-                    </div>
+                                <!-- Dark and sun -->
+                                <div class="DarkandLight py-2">
+                                    <nav class="navigation">
+                                        <div class="theme-switch-wrapper">
+                                            <div class="mode-container">
+                                                <i class="fa-solid fa-sun"></i>
+                                                <i class="fa-regular fa-moon"></i>
+                                            </div>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                    </form>
                 </div>
             </nav>
         </div>
     </header>
+
+
+
+
+
 
     <!-- Banner-->
     <section class="banner">
@@ -108,14 +123,14 @@
     <section class="choose  ">
         <div class="container py-md-3">
             <div class="choose__title">
-                <h5 style="color: #db5678">Why Choose Us</h5>
+                <h6 class="sub-title">Why Choose Us</h6>
                 <h3>Tools for business startup to <br /> professional</h3>
                 <p class="py-3">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
                     inventore iste ipsa odio. Aut, vero?
                 </p>
             </div>
-            <div class="choose__content py-3 border-radius">
+            <div class="choose__content py-3">
                 <div class="row g-5 my-4">
                     <div class="col-4">
                         <div class="content py-3">
@@ -166,8 +181,8 @@
             <div class="box d-flex">
                 <div class="about-item  py-5">
                     <div class="about-content">
-                        <h6 style="color: #db5678">About Our Company </h6>
-                        <h2> The Best Choice For Your <br />Successful Business!</h2>
+                        <h6 class="sub-title" style="color: #db5678">About Our Company </h6>
+                        <h3> The Best Choice For Your <br />Successful Business!</h3>
                         <p class="pb-5 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veritatis
                             voluptate sapiente
                             distinctio obcaecati, in possimus asperiores aliquam neque laborum?</p>
@@ -189,10 +204,10 @@
                         <div class="row g-5 ">
                             <div class="col-4">
                                 <div class="content py-5 pr-3">
+                                    <!-- Thuộc tính font-weight-bold : in đậm, text-capitalize: in hoa chữ cái thứ 2] -->
+                                    <h4 class="my-3 font-weight-bold text-capitalize">Happy Customers</h4>
 
-                                    <h3 class="my-3">Happy Customers</h3>
-
-                                    <h2 class="counter " style="color: #db5678"> 10458</h2>
+                                    <p class="counter " style="color: #db5678"> 10458</p>
                                     <p>
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid quasi
                                         obcaecati
@@ -204,8 +219,8 @@
                             <div class="col-4 ">
                                 <div class="content py-5 pr-3">
 
-                                    <h3 class="my-3">Wining Awads</h3>
-                                    <h2 class="counter" style="color: #db5678"> 890</h2>
+                                    <h4 class="my-3 font-weight-bold text-capitalize">Wining Awads</h4>
+                                    <p class="counter" style="color: #db5678"> 890</p>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt architecto
                                         nihil
@@ -217,8 +232,8 @@
                             <div class="col-4">
                                 <div class="content py-5">
 
-                                    <h3 class="my-3">Completed Projects</h3>
-                                    <h2 class="counter" style="color: #db5678"> 5345</h2>
+                                    <h4 class="my-3 font-weight-bold text-capitalize">Completed Projects</h4>
+                                    <p class="counter" style="color: #db5678"> 5345</p>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, laborum. Minima
                                         perspiciatis quaerat ipsum suscipit!
@@ -230,6 +245,31 @@
 
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- True -->
+
+    <section class="true">
+
+
+        <!-- <div class="true-img">
+
+        </div> -->
+
+        <div class="true__content">
+            <div class="container">
+                <div class="true__title">
+                    <h2>We are true to ourselves, and commit <br />to always perform at our best.</h2>
+                    <p class="mt-md-4 mt-3 mb-md-5 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        Accusamus libero voluptas officia
+                        consequuntur dolores exercitationem maiores <br /> voluptatum ut ratione dolore?</p>
+                </div>
+                <a href="#url" class="btn-light">
+                    Read more</a>
+
+            </div>
+
+
         </div>
     </section>
     <!-- Footer bottom-->
@@ -290,8 +330,8 @@
     <!-- Footer copyright -->
     <section class="footer__copyright">
         <div class="container"></div>
-        <div class="copyright pl-5 d-flex align-items-center justify-content-between ">
-            <p class="pt-2 pl-5 ml-4">
+        <div class="copyright pl-5 ml-5 d-flex align-items-center justify-content-between ">
+            <p class="pt-2 pl-5 ml-5">
                 © 2023 Masterwork. All Rights Reserved | WordPress Theme by
                 <a href="https://w3layouts.com">w3layouts</a>
             </p>
