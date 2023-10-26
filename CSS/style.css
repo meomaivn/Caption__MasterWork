@@ -36,11 +36,8 @@ body {
 }
 
 .btn__more {
-
     transition: all 0.6s;
     border-radius: 2px;
-
-
     text-align: center;
     background: #DC4F72;
     border: none;
@@ -64,27 +61,12 @@ body {
 
 /* HEADER */
 header {
-    /* position: absolute; */
     width: 100%;
-
-
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     align-items: center;
-    height: 70px;
+    height: 80px;
     border-bottom: none;
 }
-
-/* header {
-   
-    width: 100%;
-    z-index: 1;
-    padding: 15px 0;
-    height: 70px;
-    border-bottom: none;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
-    align-items: center;
-    background-color: #F7F9FC;
-} */
 
 /*? chưa hover */
 #navbarMaster .nav-item .nav-link {
@@ -97,24 +79,19 @@ header {
     color: #DC4F72;
 }
 
-
 /* Tạo đường gạch */
 #navbarMaster .nav-item .nav-link::after {
     content: "";
     width: 0;
     height: 3px;
     background-color: #DC4F72;
-    /* (không bị đụng code với BS) */
     display: block;
-    /* display: inline-block; ko chiếm 1 hàng width 100% (inline), 
-    nhưng xét được kích thước (block)*/
     transition: all 0.5s;
 }
 
 #navbarMaster .nav-item:hover .nav-link::after {
     width: 30%;
 }
-
 
 header .navbar-nav .nav-item a {
     color: black;
@@ -157,7 +134,6 @@ header .navbar .navbar-brand,
 .h3 {
     font-size: 30px !important;
     font-weight: 500;
-
 }
 
 .btn__started {
@@ -168,11 +144,9 @@ header .navbar .navbar-brand,
 }
 
 .banner a {
-
     color: red;
     text-decoration: none;
     background-color: transparent;
-
 }
 
 .banner .img-fluid {
@@ -194,7 +168,6 @@ header .navbar .navbar-brand,
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
-
 }
 
 .choose .choose__title h3 {
@@ -219,7 +192,6 @@ header .navbar .navbar-brand,
     transform: translateY(0);
     transition: all 0.6s;
     cursor: pointer;
-
 }
 
 .choose .choose__content .content:hover {
@@ -249,11 +221,6 @@ header .navbar .navbar-brand,
     margin-top: 10px;
 }
 
-
-/* .about .box {
-    display: flex;
-} */
-/* Sub-title */
 .about .sub-title {
     font-size: 16px;
     line-height: 20px;
@@ -271,7 +238,6 @@ header .navbar .navbar-brand,
 
 .about .about-item .box-img img {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-
     transform: translateY(0);
     border-radius: 4px;
     vertical-align: middle;
@@ -293,11 +259,9 @@ header .navbar .navbar-brand,
     font-weight: 700;
 }
 
-
 .about__content .content {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     text-align: center;
-
     transition: all 0.6s;
     cursor: pointer;
 }
@@ -307,13 +271,8 @@ header .navbar .navbar-brand,
 }
 
 /* True */
-
-
 .true {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url('https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/bg.jpg');
-
-
-
     background-size: cover;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
@@ -323,7 +282,6 @@ header .navbar .navbar-brand,
     align-items: center;
     padding: 2rem 0;
     border-radius: 3px;
-
 }
 
 .true .true__title h2 {
@@ -403,7 +361,6 @@ header .navbar .navbar-brand,
     transition: all 0.5s;
 }
 
-
 .footer__bottom .footer1__item ul li a:hover {
     color: #DC4F72;
 }
@@ -433,7 +390,6 @@ header .navbar .navbar-brand,
     background-color: white;
     border: #F7F9FC 2px solid;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .footerNews .letter .btn__more:hover {
@@ -441,7 +397,6 @@ header .navbar .navbar-brand,
     color: #F7F9FC;
 }
 
-/* border: #F7F9FC 2px solid; */
 .footerNews h3 {
     font-size: 20px;
     font-weight: 700;
@@ -488,7 +443,6 @@ ul li a {
 
 .footer__copyright {
     background-color: #F7F9FC;
-
 }
 
 .footer__copyright .copyright a {
@@ -496,8 +450,6 @@ ul li a {
     color: #000000;
     transition: all 0.5s;
 }
-
-
 
 .footer__copyright .copyright a:hover {
     color: #DC4F72;
@@ -509,7 +461,6 @@ ul li a {
 
 .copyright {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-
     background-color: #F7F9FC;
     color: black;
     padding: 50px 0;
@@ -530,11 +481,8 @@ span:hover {
 
 /* 404 */
 .error .error404 {
-    /* display: flex; */
     font-size: 30px;
     align-items: center;
-    /* flex-direction: column; */
-    /* align-items: center; */
 
 }
 
@@ -565,15 +513,9 @@ h1,
     height: 58px;
     border: 1px solid #ddd;
     border-radius: 4px;
-
     font-weight: 500;
-
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-
-
-
 
 .error .error-page {
     display: flex;
@@ -602,4 +544,85 @@ h1,
     padding: 0.375rem 0.75rem;
     border-radius: 0.25rem;
     outline: none;
+}
+
+/* Contact */
+/* Nav small */
+.nav-small {
+    padding: 15px 20px;
+    background-color: #F7F9FC;
+    margin-top: 90px;
+    font-size: 14px;
+}
+
+.nav-small a {
+    color: #db5678;
+    margin: 0 5px 0 0;
+    font-size: 14px;
+}
+
+/* Get in touch */
+
+.touch__content .col-4.content {
+    text-align: center;
+    border: #DC4F72 2px solid;
+}
+
+.touch .touch__title {
+    text-align: center;
+}
+
+.touch .touch__title h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.touch .touch__title h3 {
+    font-size: 47px;
+    color: #2c3038;
+    line-height: 1.0;
+    font-weight: 700;
+}
+
+.touch .touch__content .content h3 {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #2c3038;
+}
+
+.touch .touch__content .content {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 3rem 2rem;
+    border: 3px solid transparent;
+    transform: translateY(0);
+    transition: all 0.6s;
+    cursor: pointer;
+    height: 300px;
+    padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.touch .touch__content .content:hover {
+    transform: translateY(-15px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.touch .touch__content .border-radius {
+    border-radius: 3px;
+}
+
+.touch .touch__content .content .icon {
+    color: #DC4F72 !important;
+    line-height: 60px;
+    font-size: 50px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    border: 2px solid #DC4F72;
+    text-align: center;
+    background: rgba(220, 79, 114, 0.1);
 }
