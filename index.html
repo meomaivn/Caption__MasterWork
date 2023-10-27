@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header class="bg-light fixed-top">
+    <header class="bg-light  fixed-top  ">
         <nav class="navbar navbar-expand-lg container navbar-dark bg-light">
             <a class="navbar-brand" href="index.html">
                 <span class="logo"><i class="logo fa-solid fa-handshake mr-2 brand"></i>MasterWork</span>
@@ -70,7 +70,15 @@
                                 Schedule a Demo</a>
                         </div>
                         <!-- Dark and sun -->
-                        <div class="DarkandLight py-2">
+                        <label class="dark-mode">
+                            <input type="checkbox">
+                            <ion-icon name="sunny-outline" class="sun"></ion-icon>
+                            <ion-icon name="moon-outline" class="moon"></ion-icon>
+                            <span class="toggle"></span>
+                            <span class="animateBg"></span>
+                        </label>
+
+                        <!-- <div class="DarkandLight py-2">
                             <nav class="navigation">
                                 <div class="theme-switch-wrapper">
                                     <div class="mode-container">
@@ -79,7 +87,7 @@
                                     </div>
                                 </div>
                             </nav>
-                        </div>
+                        </div> -->
                     </div>
                 </form>
             </div>
@@ -342,6 +350,9 @@
     <!-- Back To Top -->
     <script src="./libs/backtotop/util.js"></script>
     <script src="./libs/backtotop/main.js"></script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- Back to top -->
     <a href="#" class="backToTop cd-top text-replace js-cd-top">
         <i class="fa-solid fa-chevron-up"></i>
