@@ -1083,3 +1083,91 @@ h1,
 
 
 }
+
+
+/* FAQ */
+.General .General_header h6 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #dc4f72;
+    margin-bottom: 5px;
+}
+
+.General .General_header h3 {
+    font-size: 46px;
+    color: #2c3038;
+    font-weight: 700;
+}
+
+.General .General_header p {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.imgFAQs {
+    max-width: 100%;
+    height: auto;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(0);
+    transition: 0.3s;
+}
+
+
+.General_content .General_content_img:hover .imgFAQs {
+    transform: translateY(-20px);
+}
+
+.btn-block {
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+/* Feature */
+.sub-title2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #dc4f72;
+}
+
+.header-section {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.header-section h3 {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.header-section p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5a5a5a;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .show>.nav-link {
+
+    border-bottom: 3px solid #dc4f72;
+}
+
+
+.featured .box-img img {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(0);
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.featured .box-img:hover {
+    transform: translateY(-15px);
+    transition: 0.3s ease-in-out;
+}
+
+.featured .img-move:hover {}
