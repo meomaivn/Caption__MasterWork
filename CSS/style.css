@@ -789,3 +789,297 @@ h1,
 .touch .touch__content p a:hover {
     color: #db5678 !important;
 }
+
+
+/* TEST */
+/* Responsive */
+
+
+
+/* Tablets */
+/* Tablet & mobile*/
+
+@media only screen and (min-device-width: 480px) and (max-device-width:768px) {
+
+
+    .touch__content .col-4.content {
+        text-align: center;
+        border: #DC4F72 2px solid;
+    }
+
+    .touch .touch__title {
+        text-align: center;
+    }
+
+    .touch .touch__title h5 {
+        font-size: 0.6rem;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .touch .touch__title h3 {
+        font-size: 1.6em;
+        color: #2c3038;
+        line-height: 1.0;
+        font-weight: 600;
+    }
+
+    .touch .touch__content .content h3 {
+        font-size: 0.9em;
+        line-height: 1.1em;
+        font-weight: 800;
+        color: #2c3038;
+    }
+
+    .touch .touch__content .content {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 3rem 2rem;
+        border: 3px solid transparent;
+        transform: translateY(0);
+        transition: all 0.6s;
+        cursor: pointer;
+        height: 18em;
+
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 1.1rem;
+    }
+
+    .touch .touch__content .content:hover {
+        transform: translateY(-15px);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .touch .touch__content .border-radius {
+        border-radius: 3px;
+    }
+
+    .touch .touch__content .content .icon {
+        color: #DC4F72 !important;
+        line-height: 2.0em;
+        font-size: 2.0em;
+        border-radius: 50%;
+        height: 2em;
+        width: 2em;
+        margin: 0 auto;
+        border: 2px solid #DC4F72;
+        text-align: center;
+        background: rgba(220, 79, 114, 0.1);
+    }
+
+    .touch .touch__content p a {
+        color: #5a5a5a !important;
+        font-size: 0.8;
+        line-height: 0.89em;
+        font-weight: 460;
+    }
+
+    .touch .touch__content p a:hover {
+        color: #db5678 !important;
+    }
+
+    .touch .touch__content p {
+        font-size: 0.87em;
+        font-weight: 460;
+
+    }
+
+    .navbar-toggler-icon {
+        background-color: #db5678 !important;
+    }
+
+    .navbar-brand .logo {
+        color: #db5678;
+        font-size: 1.1em;
+        padding-left: 0.3em;
+        margin: 0;
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: .5px;
+    }
+
+}
+
+/* Small devices */
+@media only screen and (min-device-width: 769px) and (max-device-width:1023.9px) {
+
+
+    .touch__content .col-4.content {
+        text-align: center;
+        border: #DC4F72 2px solid;
+    }
+
+    .touch .touch__title {
+        text-align: center;
+    }
+
+    .touch .touch__title h5 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1.6;
+    }
+
+    .touch .touch__title h3 {
+        font-size: 1.8em;
+        color: #2c3038;
+        line-height: 1.0;
+        font-weight: 600;
+    }
+
+    .touch .touch__content .content h3 {
+        font-size: 1em;
+        line-height: 1.05em;
+        font-weight: 790;
+        color: #2c3038;
+    }
+
+    .touch .touch__content .content {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 3rem 2rem;
+        border: 3px solid transparent;
+        transform: translateY(0);
+        transition: all 0.6s;
+        cursor: pointer;
+        height: 18em;
+
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-bottom: 4em;
+    }
+
+    .touch .touch__content .content:hover {
+        transform: translateY(-15px);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .touch .touch__content .border-radius {
+        border-radius: 3px;
+    }
+
+    .touch .touch__content .content .icon {
+        color: #DC4F72 !important;
+        line-height: 2.0em;
+        font-size: 2.0em;
+        border-radius: 50%;
+        height: 2em;
+        width: 2em;
+        margin: 0 auto;
+        border: 2px solid #DC4F72;
+        text-align: center;
+        background: rgba(220, 79, 114, 0.1);
+    }
+
+    .touch .touch__content p a {
+        color: #5a5a5a !important;
+        font-size: 0.8;
+        line-height: 0.89em;
+        font-weight: 460;
+    }
+
+    .touch .touch__content p a:hover {
+        color: #db5678 !important;
+    }
+
+    .touch .touch__content p {
+        font-size: 0.88em;
+        font-weight: 470;
+
+    }
+
+    .navbar-toggler-icon {
+        background-color: #db5678 !important;
+    }
+
+    .navbar-brand .logo {
+        color: #db5678;
+        font-size: 1.4em;
+        padding-left: 0.3em;
+        margin: 0;
+        font-weight: 700;
+        text-transform: capitalize;
+        letter-spacing: .5px;
+    }
+
+}
+
+/* Large devices */
+
+@media only screen and (min-device-width: 1025px) and (max-device-width:1440px) {
+    .touch__content .col-4.content {
+        text-align: center;
+        border: #DC4F72 2px solid;
+    }
+
+    .touch .touch__title {
+        text-align: center;
+    }
+
+    .touch .touch__title h5 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .touch .touch__title h3 {
+        font-size: 2.9em;
+        color: #2c3038;
+        line-height: 1.0;
+        font-weight: 700;
+    }
+
+    .touch .touch__content .content h3 {
+        font-size: 1.62em;
+        line-height: 2.2em;
+        font-weight: 700;
+        color: #2c3038;
+    }
+
+    .touch .touch__content .content {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 3rem 2rem;
+        border: 3px solid transparent;
+        transform: translateY(0);
+        transition: all 0.6s;
+        cursor: pointer;
+        height: 18.8;
+        padding: 3rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .touch .touch__content .content:hover {
+        transform: translateY(-15px);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .touch .touch__content .border-radius {
+        border-radius: 3px;
+    }
+
+    .touch .touch__content .content .icon {
+        color: #DC4F72 !important;
+        line-height: 3.8em;
+        font-size: 3.12em;
+        border-radius: 50%;
+        height: 3.8em;
+        width: 3.8em;
+        margin: 0 auto;
+        border: 2px solid #DC4F72;
+        text-align: center;
+        background: rgba(220, 79, 114, 0.1);
+    }
+
+    .touch .touch__content p a {
+        color: #5a5a5a !important;
+        font-size: 1.1em;
+        line-height: 1.4;
+        font-weight: 600;
+    }
+
+    .touch .touch__content p a:hover {
+        color: #db5678 !important;
+    }
+
+
+
+}
