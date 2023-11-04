@@ -310,6 +310,7 @@ input:checked~.animateBg {
 .choose__content .col-4.content {
     text-align: center;
     border: #DC4F72 2px solid;
+    padding: 3.5rem 2.1rem;
 }
 
 .choose .choose__title {
