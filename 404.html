@@ -2,6 +2,12 @@
 <html lang="en">
 
 <head>
+    <!-- dns-prefetch -->
+    <link rel='dns-prefetch' href='https://stats.wp.com' />
+    <link rel='dns-prefetch' href='https://connect.facebook.net' />
+    <link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com" />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -25,7 +31,7 @@
 
 <body>
     <!-- Header -->
-    <header class="bg-light fixed-top">
+    <header class="bg-light  fixed-top  ">
         <nav class="navbar navbar-expand-lg container navbar-dark bg-light">
             <a class="navbar-brand" href="index.html">
                 <span class="logo"><i class="logo fa-solid fa-handshake mr-2 brand"></i>MasterWork</span>
@@ -34,6 +40,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMaster"
                 aria-controls="navbarMaster" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+                <!-- <i class="fa-solid fa-stream navbar-toggler-icon"></i> -->
             </button>
             <div class="collapse navbar-collapse" id="navbarMaster">
                 <ul class="navbar-nav ml-auto">
@@ -57,6 +64,7 @@
                             <a class="dropdown-item" href="404.html">404 page</a>
                         </div>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="contact__us.html">Contact</a>
                     </li>
@@ -72,7 +80,15 @@
                                 Schedule a Demo</a>
                         </div>
                         <!-- Dark and sun -->
-                        <div class="DarkandLight py-2">
+                        <label class="dark-mode">
+                            <input type="checkbox">
+                            <ion-icon name="sunny-outline" class="sun"></ion-icon>
+                            <ion-icon name="moon-outline" class="moon"></ion-icon>
+                            <span class="toggle"></span>
+                            <span class="animateBg"></span>
+                        </label>
+
+                        <!-- <div class="DarkandLight py-2">
                             <nav class="navigation">
                                 <div class="theme-switch-wrapper">
                                     <div class="mode-container">
@@ -81,7 +97,7 @@
                                     </div>
                                 </div>
                             </nav>
-                        </div>
+                        </div> -->
                     </div>
                 </form>
             </div>
