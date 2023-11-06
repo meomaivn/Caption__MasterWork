@@ -731,6 +731,12 @@ h1,
     margin: 0 auto;
 }
 
+.header-section .img-curve,
+img {
+    /* border-radius: 10px !important; */
+    border-radius: 0.62em 0.62em;
+}
+
 .img-curve:hover {
     transform: translateY(-20px);
     transition: all 0.5s;
@@ -779,7 +785,7 @@ textarea {
 }
 
 .w3l-contact .contact-form {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
     padding: 16px;
 }
 
@@ -847,7 +853,8 @@ textarea {
     cursor: pointer;
     height: 300px;
     padding: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+    /* 1px 5px 7.5px rgba(14, 13, 13, 0.2) */
 }
 
 .touch .touch__content .content:hover {
