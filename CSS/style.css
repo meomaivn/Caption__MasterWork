@@ -612,6 +612,22 @@ ul li a {
     padding-left: 70px !important;
 }
 
+.footer__copyright .social,
+a>span,
+.fa,
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fa-solid,
+.fab,
+.far,
+.fas {
+    font-size: 1.02em;
+    /* line-height: 36px; */
+    letter-spacing: 0.9em;
+}
+
 .copyright {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #F7F9FC;
