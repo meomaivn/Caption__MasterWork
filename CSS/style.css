@@ -714,6 +714,98 @@ h1,
     font-size: 14px;
 }
 
+
+/* Contact */
+.header-section h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.header-section h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header-section {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.img-curve:hover {
+    transform: translateY(-20px);
+    transition: all 0.5s;
+}
+
+.contact-form .main-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form .main-input input,
+textarea {
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 0;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    border: 1px solid #abb8c3;
+    background: #F7F9FC;
+    border: 2px transparent;
+
+}
+
+.contact-form .main-input textarea {
+    height: 130px;
+}
+
+.text-right button {
+    color: #fff;
+    background-color: #d62f58;
+    border-color: #cf2952;
+    padding: 0px 50px;
+}
+
+.ContactSection {
+    background-color: white;
+}
+
+.w3l-contact .header-section {
+    max-width: 750px;
+    margin: 0 auto;
+
+}
+
+.w3l-contact .contact-form {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 16px;
+}
+
+.w3l-contact .btn__more {
+    transition: all 0.6s;
+    border-radius: 2px;
+    text-align: center;
+    background: #DC4F72;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 20px;
+    cursor: pointer;
+    width: 20%;
+    color: #fff;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.w3l-contact .btn__more:hover {
+    background-color: #D62F58;
+    text-decoration: none;
+    color: #fff;
+}
+
 /* Get in touch */
 
 .touch__content .col-4.content {
@@ -885,9 +977,7 @@ h1,
 
     }
 
-    .navbar-toggler-icon {
-        background-color: #db5678 !important;
-    }
+
 
     .navbar-brand .logo {
         color: #db5678;
@@ -899,7 +989,15 @@ h1,
         letter-spacing: .5px;
     }
 
+    .navbar-dark .navbar-toggle {
+        color: #ccc;
+        background-color: #DC4F72 !important;
+    }
+
+
+
 }
+
 
 /* Small devices */
 @media only screen and (min-device-width: 769px) and (max-device-width:1023.9px) {
